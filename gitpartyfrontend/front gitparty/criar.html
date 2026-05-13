@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Criar Evento</title>
+
+<link rel="stylesheet" href="criar.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+
+    <header class="topo">
+
+        <div class="logo">VIBE</div>
+
+        <nav class="menu">
+            <a href="index.html">Explorar</a>
+            <a href="#" class="active">Criar Evento</a>
+        </nav>
+
+    </header>
+
+    <div class="conteudo">
+
+        <div class="formulario">
+
+            <h1>Criar Novo Evento</h1>
+
+            <p>Compartilhe sua vibe com o mundo.</p>
+
+            <form id="formEvento">
+
+                <label>Nome do Evento</label>
+                <input type="text" id="nomeEvento" required>
+
+                <div class="linha">
+
+                    <div class="grupo">
+                        <label>Data</label>
+                        <input type="date" id="dataEvento" required>
+                    </div>
+
+                    <div class="grupo">
+                        <label>Horário</label>
+                        <input type="time" id="horaEvento" required>
+                    </div>
+
+                </div>
+
+                <label>Localização</label>
+                <input type="text" id="localEvento" required>
+
+                <label>Descrição</label>
+                <textarea id="descricaoEvento"></textarea>
+
+                <label>Imagem (URL)</label>
+                <input type="text" id="imagemEvento" required>
+
+                <button type="submit">Publicar Evento</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="criar.js"></script>
+
+</body>
+</html>
