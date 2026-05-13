@@ -1,84 +1,60 @@
-# # 🎉 VIBE Eventos
+# 📅 Projeto de Eventos - Sistema de Criação e Listagem
 
-O **VIBE Eventos** é um site para criação e visualização de eventos.  
-O usuário pode criar novos eventos e eles aparecem automaticamente na página inicial, sendo armazenados no navegador usando **localStorage**.
+## 📌 Descrição do Projeto
 
----
+Este projeto é um sistema simples de criação e listagem de eventos, desenvolvido com HTML, CSS, JavaScript e integração com backend.
 
-## 🚀 Funcionalidades
+O objetivo é permitir que o usuário crie eventos com informações como nome, data, local e imagem, e que esses eventos sejam exibidos automaticamente na página inicial, funcionando como uma lista dinâmica.
 
-- Criar eventos personalizados
-- Adicionar nome, data, horário, local e imagem
-- Visualizar eventos na página inicial
-- Eventos salvos automaticamente no navegador
-- Integração entre páginas (Criar → Index)
-
----
-
-## 🖥️ Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- LocalStorage (armazenamento no navegador)
-
----
-
-## 📁 Estrutura do projeto
-# 🎉 VIBE Eventos
-
-O **VIBE Eventos** é um site para criação e visualização de eventos.  
-O usuário pode criar novos eventos e eles aparecem automaticamente na página inicial, sendo armazenados no navegador usando **localStorage**.
+O sistema simula uma aplicação de agenda/eventos, ajudando na organização e visualização de atividades em tempo real.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Criar eventos personalizados
-- Adicionar nome, data, horário, local e imagem
-- Visualizar eventos na página inicial
-- Eventos salvos automaticamente no navegador
-- Integração entre páginas (Criar → Index)
+- Criar eventos com formulário
+- Inserir nome, data, local e imagem
+- Listagem automática dos eventos na página inicial
+- Atualização dinâmica sem precisar recarregar a página
+- Integração com backend (caso implementado)
+- Interface simples e responsiva
 
 ---
 
-## 🖥️ Tecnologias utilizadas
+## 🧠 Prompt Atualizado do Projeto
+
+> Criar um site de eventos onde o usuário possa adicionar novos eventos através de um formulário.  
+> Cada evento deve conter: nome, data, local e imagem.  
+> Ao clicar em “Criar”, o evento deve ser salvo e aparecer automaticamente na página inicial em formato de card.  
+> O sistema deve permitir listagem dinâmica dos eventos sem duplicação ou recarregamento manual.  
+> O design deve ser simples, moderno e responsivo.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
-- LocalStorage (armazenamento no navegador)
+- JavaScript (DOM e Fetch API)
+- Node.js (opcional backend)
+- Prisma / Banco de dados (opcional)
 
 ---
 
-## 📁 Estrutura do projeto
-# 🎉 VIBE Eventos
+## ▶️ Como usar
 
-O **VIBE Eventos** é um site para criação e visualização de eventos.  
-O usuário pode criar novos eventos e eles aparecem automaticamente na página inicial, sendo armazenados no navegador usando **localStorage**.
-
----
-
-## 🚀 Funcionalidades
-
-- Criar eventos personalizados
-- Adicionar nome, data, horário, local e imagem
-- Visualizar eventos na página inicial
-- Eventos salvos automaticamente no navegador
-- Integração entre páginas (Criar → Index)
+1. Clone o repositório
+2. Abra o projeto no VS Code
+3. Inicie o backend (se houver)
+4. Abra o arquivo `index.html`
+5. Crie um evento e veja ele aparecer na lista
 
 ---
 
-## 🖥️ Tecnologias utilizadas
+## 📍 Melhorias futuras
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- LocalStorage (armazenamento no navegador)
-
----
-
-## 📁 Estrutura do projeto
-
-
-
+- Sistema de login
+- Editar e excluir eventos
+- Filtro por data ou categoria
+- Banco de dados online
+- Design mais avançado (UI/UX)
